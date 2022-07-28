@@ -19,7 +19,7 @@ let checkedBtn = 0; // current selected button
 
 sizeBtns.forEach((item, i) => { 
     item.addEventListener('click', () => { 
-        sizeBtns[checkedBtn].classList.remove('check'); /
+        sizeBtns[checkedBtn].classList.remove('check'); 
         item.classList.add('check'); 
         checkedBtn = i; 
     })
